@@ -1,0 +1,78 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+
+/* main {
+	margin: 20px auto auto 20px;
+} */
+
+.container {
+	width: 800px;
+	height: 400px;
+	margin: 80px auto auto auto;
+	border: 4px solid #0a0101;
+	
+	
+}
+
+.battery {
+	margin: -30px auto auto auto;
+	width: 400px;
+	height: 200px;
+	font-size: 20px;
+	font-weight: 800;
+	text-align: center;
+	
+	background-image: url("../147.svg");
+	background-position: center;
+	/* background-repeat: no-repeat; */
+    background-size: 400px 200px;
+}
+
+.current_display {
+	width: 100px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	background-color: grey;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resistance_display {
+	width: 100px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: 800;
+	text-align: center;
+	background-color: grey;
+	/* padding-top: 30px; */
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 155px;
+	
+	
+}
+
+.buttons {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+
+
+} 
+
+button {
+	width: 40px;
+	height: 40px;
+	
+}
+
